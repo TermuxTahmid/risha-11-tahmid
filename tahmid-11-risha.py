@@ -250,9 +250,11 @@ def action():
 
 
 if __name__ == '__main__':
-    def Subscraption():
+	
+def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrTr. Tahmid-cov', 'r').read()
-	clear()
+
+	
 	print(logo)
 	r1=requests.get("https://github.com/TermuxTahmid/Risha11-approval.txt/blob/main/tahmid-11_approval.txt").text
 	if key1 in r1:
@@ -286,4 +288,4 @@ if __name__ == '__main__':
 
 Subscraption()
 
-# okay decompiling UF11.pyc
+
